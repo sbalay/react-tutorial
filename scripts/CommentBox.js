@@ -7,7 +7,7 @@ export default class CommentBox extends React.Component {
     return (
       <div className="commentBox">
         <h1>Comments</h1>
-        <CommentList />
+        <CommentList comments={this.props.comments} />
         <CommentForm />
       </div>
     );
