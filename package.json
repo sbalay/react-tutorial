@@ -37,6 +37,7 @@
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
+    "jquery": "^2.1.4",
     "marked": "^0.3.3",
     "react": "^0.13.0"
   }
